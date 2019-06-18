@@ -1,0 +1,145 @@
+html, body {margin: 0; height: 100%;width: 100%}
+#box1 {background: #15A6B5; width: 100% ;height: 30px}
+#box1 img {float: right ;margin: 4px 8px;height: 22px }
+#box2 {height: 123px;width: 98%;background: transparent;float: left;padding: 1%}
+#box2 img {height: 120px;width: 350px}
+#linea {background: #0C596B;width: 100%;height: 1.6px;float: left;margin-bottom: 2px}
+#linea2 {background: #0C596B;width: 100%;height: 1.6px;float: left;margin-bottom: 2px}
+#linea3 {background: #0C596B;width: 100%;height: 1.6px;float: left;margin-bottom: 2px}
+.menu ul {list-style-type:none;
+	     float: left}
+	     
+.menu li {display: inline-block;color:#3D7B9E;width: 180px;
+		 height: 20px;
+	     padding: 10px 0% 6px 0% ;;margin-bottom: 2px;
+        
+	     float: left;
+list-style: none;background-position: center center;background-size: cover;text-align: center;font-size: 15px;border-radius: 10px 0px 10px 0px;} 
+
+
+.menu li a {text-decoration: none;display: block}  
+
+.menu a li:hover{ background:#10616B;color: #FFFFFF;border-radius: 10px 0px 10px 0px;} 
+
+.header{display: none}
+
+h1 {text-align: center ;;color: #0D6A76 ;margin-bottom: 10px; font-size: 30px}
+#box3 {height:auto;width: 50%;float: left;margin: 0 25%}
+
+#linea2 {background: #0C596B;width: 80%;height: 2px;float: left;margin: 1% 10%}
+
+.producto1 img{float: left; width: 90%;margin: 10px 5% 70px  5%} 
+.productoc { float: left; width: 70%;margin: 10px 15% 70px  15% ; color:#0A6180;font-size: 16px ; text-align: center}
+
+#box4 { width: 145px ;height: 30px; float:right}
+#box4 img {float: right ;margin: 1px 8px}
+
+#fin {height: 27.1px;width: 100%;background: #000;float: left}
+#fin p {color: aliceblue; position: absolute;margin: 5px 1px 1px 30px}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (max-width : 1250px )
+
+{
+	
+#box4 {display: none}
+#box4 img {display: none}	
+.producto1 img{float: left; width: 90%;margin: 10px 5% 50px  5%} 
+.productoc {font-size: 15.6px}
+	
+  }
+
+@media (max-width : 1100px )
+
+{
+#box2 {;padding: 1.5%;width: 97%}	
+.menu li {;width: 125px;
+padding: 10px 0% 2px 0%;font-size: 11px} 
+
+h1{font-size: 27px}
+.producto1 img{float: left; width: 90%;margin: 10px 5% 30px  5%} 
+.productoc {font-size: 13px }
+.productoc h1 {margin-bottom: 10px; font-size: 25px}
+	
+#fin p {color: aliceblue; position: absolute;margin: 5px 1px 1px 30px;font-size: 13px}
+p {font-size: 14px}		
+}
+
+@media (max-width : 770px )
+	
+{
+#box2 {;padding: 1.5%;width: 93% ;height: 95px}
+#box2 img {height: 90px;width: 275px}	
+.menu li {;width: 29%;
+padding: 10px 0% 2px 0%;font-size: 13px;margin: 0px 2%; margin-bottom: 2.5px} 
+#box{height:auto;width: 80%;float: left;margin: 0 10%}
+
+h1{font-size: 24px}
+.productos { height: 27px; width: 100%;}
+.producto1 img{ width: 90%;margin: 40px 5% 20px  5%} 
+.productoc { width: 80%;margin: 40px 10% 40px  10% ;font-size: 15px ; text-align: center}
+.productoc h1 {margin-bottom: 10px; font-size: 25px,}
+	
+#linea2 {width: 90%;margin: 1% 5%}	
+#fin {height: 19px}
+#fin p {color: aliceblue; position: absolute;margin: 5px 1px 1px 10px;font-size: 9px}
+p {font-size: 13px}		
+}
+
+@media (max-width : 500px )
+{
+.menu{display: none}
+.header {list-style-type:none;
+	     float: left}
+#carrucel {display: none}
+	ul , ol {list-style: none;text-decoration: none}
+	.nav li a { list-style: none;background: #fff;color: #000;text-decoration: none;padding: 10px 25px;display: block;font-size: 18px;}
+	.nav li a:hover {background: #F3F3F3}
+	.nav > li {float: left}
+	.nav li ul {display: none;position: absolute;min-width: 110px}
+	.nav li:hover > ul{display: block}
+	.nav li ul li {position: relative;left: -65px}
+	.nav li ul li ul {right: -160px;top:0px}	
+.header {display: block; width: 300px}
+			.nav li p {font-size: 18px; background: #fff;color:#000;text-decoration: none; padding: 0px 25px 15px; display: block;margin-bottom: 2px}	
+
+	#boxc {display: block; float: left;margin-bottom: 20px}
+	#boxc img {;width:100%}
+
+h1{font-size: 20px}
+.productos { height: 25px; width: 100%;}
+.producto1 img{ width: 90%;margin: 30px 5% 10px  5%} 
+.productoc { width: 90%;margin: 30px 5% 30px  5% ;font-size: 11px ; text-align: center}
+.productoc h1 {margin-bottom: 10px; font-size: 25px}
+	
+	
+#fin {height: 15px}
+#fin p {font-size: 6px}
+p {font-size: 12px}	
+}
+
+
+@media (max-width : 320px )
+	
+{ 
+#box2 {;padding: 1.5%;width: 93% ;height: 70px}
+#box2 img {height: 70px;width: 215px}		
+.header {display: block; width: 240px} 	
+.nav li a {;padding: 10px 15px;	}
+
+h1{font-size: 16px}
+.productos { height: 20px; width: 100%}
+.producto1 img{ width: 98%;margin: 20px 1% 0px  1%} 
+.productoc { width: 98%;margin: 20px 1% 20px  1% ;font-size: 11px ; text-align: center}
+.productoc h1 {margin-bottom: 10px; font-size: 25px}
+	
+#fin p {;margin: 5px 1px 1px 3px;font-size: 5px}
+p {font-size: 11px}	
+}
